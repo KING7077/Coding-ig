@@ -16,7 +16,7 @@ class Help(commands.HelpCommand):
 
     async def send_bot_help(self, mapping):
         # here, you can use a custom paginator if you want
-        # I have a few embeds saved up in another file
+        # I have a few embeds saved up in another file, which explains why I imported embeds_Stuff
         # you can of course use the embeds along with the paginator buttons
         paginator = pages.Paginator(pages=self.get_pages())
         paginator.add_button(pages.PaginatorButton(
