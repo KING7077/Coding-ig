@@ -75,7 +75,7 @@ async def ping(ctx):
     await ctx.send('Pong!')
 
 bot.help_command = Help()
-bot.run('ODU0OTgwMDY2NTkzMzQxNDQw.YMr0PA.NVjYy6UmAM0h2464T4igrgKJJM8')
+bot.run('token')
 
 # Hope you got some information on how to use the commands.HelpCommand class from here
 ```
